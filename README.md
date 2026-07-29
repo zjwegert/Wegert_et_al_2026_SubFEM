@@ -1,2 +1,5 @@
-# Wegert_et_al_2026_SubFEM
-Scripts for the paper "A discontinuous finite element method for submerged structures" by Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, Vivien J. Challis
+Scripts for the paper "A discontinuous finite element method for submerged structures" by Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, Vivien J. Challis:
+
+> Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, and Vivien J. Challis (2026). "A discontinuous finite element method for submerged structures". [arXiv:...](https://arxiv.org/abs/...).
+
+## How to run
