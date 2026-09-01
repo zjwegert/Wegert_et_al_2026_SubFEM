@@ -1,6 +1,6 @@
-Scripts for the paper "A discontinuous finite element method for submerged structures" by Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, Vivien J. Challis:
+Scripts for the paper "A discontinuous finite element method for hydroelastic analysis of submerged structures" by Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, Vivien J. Challis:
 
-> Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, and Vivien J. Challis (2026). "A discontinuous finite element method for submerged structures". [arXiv:...](https://arxiv.org/abs/...).
+> Zachary J. Wegert, Oriol Colomés, Michael H. Meylan, Ngamta Thamwattana, and Vivien J. Challis (2026). "A discontinuous finite element method for hydroelastic analysis of submerged structures". [arXiv:...](https://arxiv.org/abs/...).
 
 ## Installation
 
