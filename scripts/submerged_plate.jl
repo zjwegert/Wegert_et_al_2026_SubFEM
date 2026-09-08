@@ -166,15 +166,15 @@ function solve_submerged_plate_2d(;
 end
 
 # Generate results for different mesh sizes and compare to semi-analytic code
-solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=1.5),
+solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=1.5,h=2.0),
   output_dir="results/2d_mesh_compare",output_suffix="msh=1.5",semi_analytic=true)
-solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=1.0),
+solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=1.0,h=2.0),
   output_dir="results/2d_mesh_compare",output_suffix="msh=1.0")
-solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.5),
+solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.5,h=2.0),
   output_dir="results/2d_mesh_compare",output_suffix="msh=0.5")
-solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.25),
+solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.25,h=2.0),
   output_dir="results/2d_mesh_compare",output_suffix="msh=0.25")
-solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.1),
+solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.1,h=2.0),
   output_dir="results/2d_mesh_compare",output_suffix="msh=0.1")
 
 # Generate plots of |R| and |T| as a function of the period
