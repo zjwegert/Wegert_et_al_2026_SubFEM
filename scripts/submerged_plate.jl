@@ -209,10 +209,10 @@ fig = with_theme(theme_latexfonts()) do
     lines!(ax,abs.(Ts),abs.(T),label=L"|T_{\mathrm{FEM}}|",linestyle=:solid, linewidth = 4)
     lines!(ax,abs.(Ts),abs.(T_semi),label=L"|T|",linestyle=:dash, linewidth = 4)
     Legend(fig[1,2],ax,orientation=:vertical, )
-    ax2 = Axis(fig[2, 1], yscale=log10, xlabel = L"T_s", ylabel=L"|\eta|",
+    ax2 = Axis(fig[2, 1], yscale=log10, xlabel = L"T_s", ylabel=L"|\xi|",
         )
-    lines!(ax2,abs.(Ts),abs.(1 .-abs2.(R)-abs2.(T)),label=L"\eta_{\mathrm{FEM}}",linestyle=:solid, linewidth = 4)
-    lines!(ax2,abs.(Ts),abs.(1 .-abs2.(R_semi)-abs2.(T_semi)),label=L"\eta",linestyle=:solid, linewidth = 4)
+    lines!(ax2,abs.(Ts),abs.(1 .-abs2.(R)-abs2.(T)),label=L"\xi_{\mathrm{FEM}}",linestyle=:solid, linewidth = 4)
+    lines!(ax2,abs.(Ts),abs.(1 .-abs2.(R_semi)-abs2.(T_semi)),label=L"\xi",linestyle=:solid, linewidth = 4)
     ylims!(ax2,5e-17,5e-8)
     Legend(fig[2,2],ax2,orientation=:vertical, )
     fig
