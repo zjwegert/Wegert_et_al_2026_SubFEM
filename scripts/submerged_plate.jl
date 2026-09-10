@@ -182,7 +182,7 @@ solve_submerged_plate_2d(;model=mesh_2d(;msh_bottom=0.1,h=2.0),
 #  at high resolution
 using CairoMakie, DelimitedFiles
 # Ts = collect(1:0.01:5)
-# model = mesh_2d(;msh_bottom=0.1)
+# model = mesh_2d(;msh_bottom=0.1,h=2.0)
 # R = zeros(ComplexF64,length(Ts))
 # T = zeros(ComplexF64,length(Ts))
 # R_semi = zeros(ComplexF64,length(Ts))
